@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #192a56 !important;
+}
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.navbar-nav > .nav-item {
+  margin-left: 20px;
+}
+.heading {
+  margin-top: 5rem !important;
+}
+
+.stages {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.stages:nth-child(1) {
+  background-color: #0abde3;
+  color: #30336b;
+}
+.stages:nth-child(2) {
+  background-color: #c7ecee;
+  color: #30336b;
+}
+.stages:nth-child(3) {
+  background-color: #7ed6df;
+  color: #30336b;
+}
+.stages:nth-child(4) {
+  background-color: #9980fa;
+  color: #30336b;
+}
