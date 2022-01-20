@@ -1,3 +1,7 @@
+:root {
+  --animate-delay: 2s;
+}
+
 body {
   font-family: "Roboto", sans-serif !important;
 }
