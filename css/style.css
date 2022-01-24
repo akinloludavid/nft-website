@@ -44,3 +44,7 @@ h1 {
   background-color: #9980fa;
   color: #30336b;
 }
+
+.hidden {
+  visibility: hidden;
+}

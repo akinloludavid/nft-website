@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -17,21 +18,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/1.39.0/tsparticles.min.js"
-      integrity="sha512-BRmvoBU4h8rMFlDbr1CRQbKcm92epkxrIkbYAvg1oLo9slWU21xAjRHYhcfBW8pcy9JCjfmlHXnt+OjjLUE5fA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
     <title>SOLAFEMMES</title>
   </head>
   <body>
-    <main class="container" id="main-section">
-      <div id="particles-js">navbar</div>
+    <main class="container-fluid" id="main-section">
+      <!-- <div id="particles-js">navbar</div> -->
       <nav
         class="navbar navbar-expand-lg navbar-light bg-transparent px-0"
         id="nav_bar"
@@ -81,37 +73,32 @@
         <!--Hero section-->
 
         <div class="row mt-5">
-          <div
-            class="col-md-6 animate__animated animate__slideInUp"
-            id="hero-section"
-          >
+          <div class="col-md-6" id="hero-section" data-aos="fade-right">
             <h1>SOLAFEMMES</h1>
             <p>NFT project that portrays the feminine character.</p>
             <a class="btn btn-secondary" href="">BUY ON OPENSEA</a>
           </div>
-          <div
-            class="col-md-6 animate__animated animate__fadeInRight"
-            id="hero-section-image"
-          >
+          <div class="col-md-6" id="hero-section-image" data-aos="fade-left">
             <img
-              src="assets/andrew-svk-rkrNzXwtSgg-unsplash.jpg"
-              width="100%"
+              src="assets/nfts/nft1.jpeg"
               alt="sol femmes image"
               loading="lazy"
+              class="nft-image"
+              width="60%"
             />
           </div>
         </div>
 
         <!--Mint Section-->
-        <div class="row heading" id="mint">
+        <div class="row heading" id="mint" data-aos="fade-up">
           <div class="col-md-6" id="mint-image-section">
-            <h2>5,000 unique Solafemmes's</h2>
             <img
               src="assets/andrew-svk-rkrNzXwtSgg-unsplash.jpg"
               width="100%"
             />
           </div>
           <div class="col-md-6" id="mint-text-section">
+            <h2>5,000 unique Solafemmes's</h2>
             <p class="mt-5 mb-5">
               Solfemmes is a community-driven collectibles NFT project with a
               total of 5000 hand-drawn, algorithmically generated NFTs on the
@@ -156,7 +143,7 @@
         <div class="mt-5" id="roadmap">
           <h2 class="heading" id="roadmap-section">Solafemmes Road Map</h2>
           <div class="roadmap">
-            <div class="stages">
+            <div class="stages" data-aos="fade-up">
               <h3>Q4 2021 - DECEMBER 2021</h3>
               <ul>
                 <li>Handcrafting first Femme.</li>
@@ -164,7 +151,7 @@
                 <li>Launch the community group and social platforms.</li>
               </ul>
             </div>
-            <div class="stages">
+            <div class="stages" data-aos="fade-up">
               <h3>Q1 2022 - JANUARY 2022</h3>
               <ul>
                 <li>Public mint.</li>
@@ -173,7 +160,7 @@
                 <li>GET LISTED ON CMC AND COINGEEKO.</li>
               </ul>
             </div>
-            <div class="stages">
+            <div class="stages" data-aos="fade-up">
               <h3>Q1 2022 - FEBRUARY 2022</h3>
               <ul>
                 <li>Create a whitelist.</li>
@@ -182,7 +169,7 @@
                 <li>Allow public minting.</li>
               </ul>
             </div>
-            <div class="stages">
+            <div class="stages" data-aos="fade-up">
               <h3>Q2 2022 & BEYOND</h3>
               <ul>
                 <li>Create GEN2 NFT</li>
@@ -197,42 +184,42 @@
         <div id="showcase">
           <h2 class="text-left heading">SHOWCASE OF SOLAFEMMES</h2>
           <div class="row">
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="500">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
                 width="100%"
               />
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
                 width="100%"
               />
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
                 width="100%"
               />
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
                 width="100%"
               />
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
                 width="100%"
               />
             </div>
-            <div class="col-md-4 mb-4">
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
               <img
                 class="showcase"
                 src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
@@ -486,9 +473,8 @@
         <img id="pattern-image" src="assets/patternpad.svg" width="100%" />
       </div>
     </footer>
+
     <script src="js/main.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/app.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -504,5 +490,13 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
