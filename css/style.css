@@ -1,9 +1,10 @@
-:root {
-  --animate-delay: 2s;
-}
-
 body {
   font-family: "Roboto", sans-serif !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 h1,
 h2,
@@ -12,6 +13,13 @@ h4,
 h5,
 h6 {
   color: #192a56 !important;
+}
+.container-fluid {
+  width: 100%;
+}
+.btn {
+  border-radius: 20px !important;
+  height: 40px !important;
 }
 h1 {
   font-weight: bold;
@@ -47,4 +55,30 @@ h1 {
 
 .hidden {
   visibility: hidden;
+}
+.nft-image {
+  width: 60%;
+}
+#hero-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left !important;
+}
+
+#whitepaper {
+  background-color: #192a56;
+  color: #f3f3f3;
+}
+#whitepaper :is(h2, h4) {
+  color: white !important;
+}
+#whitepaper button {
+  background-color: #e1b12c;
+  border: 1px solid #e1b12c;
+}
+@media screen and (max-width: 480px) {
+  .nft-image {
+    width: 100%;
+  }
 }
