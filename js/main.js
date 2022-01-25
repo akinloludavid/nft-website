@@ -29,10 +29,12 @@ let i = 0;
 let j = 0;
 setInterval(() => {
   pattern.src = patternArray[i % 4];
-  nftImage.src = heroImages[j % 6];
-  j++;
   i++;
 }, 1000);
+setInterval(() => {
+  nftImage.src = heroImages[j % 6];
+  j++;
+}, 200);
 
 function elementInViewport(el) {
   var top = el.offsetTop;

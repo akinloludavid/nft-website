@@ -18,17 +18,22 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+      integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://use.fontawesome.com/37aec41066.js"></script>
 
     <title>SOLAFEMMES</title>
   </head>
   <body>
     <main class="container-fluid" id="main-section">
       <!-- <div id="particles-js">navbar</div> -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-transparent px-0"
-        id="nav_bar"
-      >
-        <a class="navbar-brand" href="#">SOLAFEMMES</a>
+      <nav class="navbar fixed-top navbar-expand-lg px-0" id="nav_bar">
+        <a class="navbar-brand text-white" href="#">SOLAFEMMES</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,9 +43,15 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon">
+            <i
+              class="fa fa-bars"
+              aria-hidden="true"
+              style="font-size: 28px; width: 30px"
+            ></i>
+          </span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse navbar-dark" id="navbarNav">
           <ul class="navbar-nav ml-lg-auto">
             <li class="nav-item active">
               <a class="nav-link" href="#"
@@ -82,7 +93,11 @@
             <p>NFT project that portrays the feminine character.</p>
             <a class="btn btn-secondary" href="">BUY ON OPENSEA</a>
           </div>
-          <div class="col-md-6" id="hero-section-image" data-aos="fade-left">
+          <div
+            class="col-md-6 mt-5"
+            id="hero-section-image"
+            data-aos="fade-left"
+          >
             <img
               src="assets/nfts/nft1.jpeg"
               alt="sol femmes image"
@@ -93,12 +108,9 @@
         </div>
 
         <!--Mint Section-->
-        <div class="row heading jumbotron" id="mint" data-aos="fade-up">
+        <div class="row heading" id="mint" data-aos="fade-up">
           <div class="col-md-6" id="mint-image-section">
-            <img
-              src="assets/andrew-svk-rkrNzXwtSgg-unsplash.jpg"
-              width="100%"
-            />
+            <img src="assets/nfts/nft1.jpeg" width="100%" />
           </div>
           <div class="col-md-6" id="mint-text-section">
             <h2>5,000 unique Solafemmes's</h2>
@@ -116,6 +128,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn-info btn text-light mb-3 mr-3"
+                data-aos="fadeIn"
+                data-aos-delay="300"
                 >Buy on Solsea</a
               >
               <a
@@ -123,6 +137,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn-info btn text-light mb-3 mr-3"
+                data-aos="fadeIn"
+                data-aos-delay="400"
                 >Buy on Digitaleyes</a
               >
               <a
@@ -130,6 +146,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn-info btn text-light mb-3 mr-3"
+                data-aos="fadeIn"
+                data-aos-delay="500"
                 >Buy on Solanart</a
               >
               <a
@@ -137,6 +155,8 @@
                 target="_blank"
                 rel="noopener noreferrer"
                 class="btn-info btn text-light mb-3 mr-3"
+                data-aos="fadeIn"
+                data-aos-delay="600"
                 >Buy on MagicEden</a
               >
             </div>
@@ -145,8 +165,8 @@
         <!--roadmap-->
         <div class="mt-5" id="roadmap">
           <h2 class="heading" id="roadmap-section">Solafemmes Road Map</h2>
-          <div class="roadmap">
-            <div class="stages" data-aos="fade-up">
+          <div class="roadmap row d-flex justify-content-center">
+            <div class="stages col-md-5" data-aos="fade-up">
               <h3>Q4 2021 - DECEMBER 2021</h3>
               <ul>
                 <li>Handcrafting first Femme.</li>
@@ -154,7 +174,7 @@
                 <li>Launch the community group and social platforms.</li>
               </ul>
             </div>
-            <div class="stages" data-aos="fade-up">
+            <div class="stages col-md-5" data-aos="fade-up">
               <h3>Q1 2022 - JANUARY 2022</h3>
               <ul>
                 <li>Public mint.</li>
@@ -163,7 +183,7 @@
                 <li>GET LISTED ON CMC AND COINGEEKO.</li>
               </ul>
             </div>
-            <div class="stages" data-aos="fade-up">
+            <div class="stages col-md-5" data-aos="fade-up">
               <h3>Q1 2022 - FEBRUARY 2022</h3>
               <ul>
                 <li>Create a whitelist.</li>
@@ -172,7 +192,7 @@
                 <li>Allow public minting.</li>
               </ul>
             </div>
-            <div class="stages" data-aos="fade-up">
+            <div class="stages col-md-5" data-aos="fade-up">
               <h3>Q2 2022 & BEYOND</h3>
               <ul>
                 <li>Create GEN2 NFT</li>
@@ -187,47 +207,23 @@
         <div id="showcase">
           <h2 class="text-left heading">SHOWCASE OF SOLAFEMMES</h2>
           <div class="row">
-            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="500">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
+            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
+              <img class="showcase" src="assets/nfts/nft1.jpeg" width="100%" />
+            </div>
+            <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="50">
+              <img class="showcase" src="assets/nfts/nft2.jpeg" width="100%" />
             </div>
             <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
+              <img class="showcase" src="assets/nfts/nft3.jpeg" width="100%" />
+            </div>
+            <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="50">
+              <img class="showcase" src="assets/nfts/nft4.jpeg" width="100%" />
             </div>
             <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
+              <img class="showcase" src="assets/nfts/nft5.jpeg" width="100%" />
             </div>
-            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
-            </div>
-            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
-            </div>
-            <div class="col-md-4 mb-4" data-aos="flip-up" data-aos-delay="50">
-              <img
-                class="showcase"
-                src="assets/bjorn-pierre-WhRGvt7USX4-unsplash.jpg"
-                width="100%"
-              />
+            <div class="col-md-4 mb-4" data-aos="flip-down" data-aos-delay="50">
+              <img class="showcase" src="assets/nfts/nft6.jpeg" width="100%" />
             </div>
           </div>
         </div>
@@ -237,7 +233,7 @@
           <h2 class="heading">TEAM SOLAFEMMES</h2>
           <div class="row d-flex justify-content-center">
             <div class="col-md-3">
-              <div class="card" style="width: 100%">
+              <div class="card mb-5" style="width: 100%">
                 <img
                   class="card-img-top"
                   src="assets/nirmal-rajendharkumar-88s0zVMLSqc-unsplash.jpg"
@@ -252,7 +248,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card" style="width: 100%">
+              <div class="card mb-5" style="width: 100%">
                 <img
                   class="card-img-top"
                   src="assets/nirmal-rajendharkumar-88s0zVMLSqc-unsplash.jpg"
@@ -267,7 +263,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card" style="width: 100%">
+              <div class="card mb-5" style="width: 100%">
                 <img
                   class="card-img-top"
                   src="assets/nirmal-rajendharkumar-88s0zVMLSqc-unsplash.jpg"
@@ -282,7 +278,7 @@
               </div>
             </div>
             <div class="col-md-3">
-              <div class="card" style="width: 100%">
+              <div class="card mb-5" style="width: 100%">
                 <img
                   class="card-img-top"
                   src="assets/nirmal-rajendharkumar-88s0zVMLSqc-unsplash.jpg"
@@ -302,7 +298,6 @@
         <!--white paper-->
         <div id="whitepaper" class="row heading p-5">
           <div class="col-md-6">
-            <h2 class="">WHITEPAPER</h2>
             <h4>
               Would you love to checkout an indepth report of SOLAFEMMES NFTs.
             </h4>
