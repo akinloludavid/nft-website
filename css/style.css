@@ -49,6 +49,10 @@ h1 {
   background-color: #192a56 !important;
   border-color: #192a56 !important;
 }
+.whitepaper {
+  background-color: #f79f1f;
+  color: white;
+}
 #nav_bar {
   background-color: #192a56;
   color: #f3f3f3;
