@@ -22,6 +22,7 @@ h6 {
 p {
   font-family: "Inter", sans-serif !important;
 }
+
 #main-section {
   background-color: #dfe6e9;
 }
@@ -31,6 +32,10 @@ p {
 .btn {
   border-radius: 20px !important;
   height: 40px !important;
+}
+
+#sol-fem-logo {
+  color: #fff !important;
 }
 h1 {
   font-weight: bold;
