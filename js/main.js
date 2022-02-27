@@ -6,12 +6,12 @@ const patternArray = [
 ];
 
 const heroImages = [
-  "../assets/nfts/nft1.jpeg",
-  "../assets/nfts/nft2.jpeg",
-  "../assets/nfts/nft3.jpeg",
-  "../assets/nfts/nft4.jpeg",
-  "../assets/nfts/nft5.jpeg",
-  "../assets/nfts/nft6.jpeg",
+  "../assets/nfts/nft1.png",
+  "../assets/nfts/nft2.png",
+  "../assets/nfts/nft3.png",
+  "../assets/nfts/nft4.png",
+  "../assets/nfts/nft5.png",
+  "../assets/nfts/nft6.png",
 ];
 
 const nftImage = document.querySelector(".nft-image");
