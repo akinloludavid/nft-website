@@ -1,5 +1,7 @@
 body {
   box-sizing: border-box;
+  background-color: #dfe6e9 !important;
+  overflow-x: hidden !important;
 }
 @font-face {
   font-family: Geograph;
@@ -8,6 +10,10 @@ body {
 * {
   padding: 0;
   margin: 0;
+}
+
+.container-fluid {
+  overflow-x: hidden !important;
 }
 
 h1,
@@ -24,6 +30,7 @@ p {
 
 #main-section {
   background-color: #dfe6e9;
+  overflow-x: hidden !important;
 }
 .container-fluid {
   width: 100%;

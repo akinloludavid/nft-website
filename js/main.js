@@ -25,12 +25,8 @@ const stages = document.querySelectorAll(".stages");
 const showcases = document.querySelectorAll(".showcase");
 const footer = document.getElementById("footer");
 
-let i = 0;
 let j = 0;
-setInterval(() => {
-  pattern.src = patternArray[i % 4];
-  i++;
-}, 1000);
+
 setInterval(() => {
   nftImage.src = heroImages[j % 6];
   j++;
