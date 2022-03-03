@@ -40,6 +40,9 @@ h1 {
   font-weight: bold;
   font-size: 36px;
 }
+.alert {
+  display: none;
+}
 
 .mint-text {
   text-align: justify;
