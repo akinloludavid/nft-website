@@ -13,14 +13,13 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   color: #192a56 !important;
   font-family: "Geograph", sans-serif !important;
 }
 p {
-  font-family: "Inter", sans-serif !important;
+  font-family: "Nunito Sans", sans-serif !important;
 }
 
 #main-section {
@@ -101,7 +100,10 @@ h1 {
   background-color: #9980fa;
   color: #30336b;
 }
-
+.stages:nth-child(5) {
+  background-color: #e84393;
+  color: #30336b;
+}
 .hidden {
   visibility: hidden;
 }
@@ -119,7 +121,7 @@ h1 {
   background-color: #192a56;
   color: #f3f3f3;
 }
-#whitepaper :is(h2, h4) {
+#whitepaper :is(h2, h3) {
   color: white !important;
 }
 #whitepaper button {
@@ -133,6 +135,11 @@ h1 {
 .navbar-toggler .navbar-toggler-icon {
   color: #f3f3f3 !important;
   /* background-color: white; */
+}
+
+#main_footer {
+  color: #f3f3f3;
+  background-color: #192a56;
 }
 @media screen and (max-width: 480px) {
   .nft-image {

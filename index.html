@@ -28,7 +28,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap"
       rel="stylesheet"
     />
     <link
@@ -104,6 +104,27 @@
             <h1>SOLAFEMMES</h1>
             <p>A community based NFT.</p>
             <a class="btn btn-primary" href="">BUY ON SOLSEA</a>
+            <div class="container mt-5 row d-flex justify-content-between">
+              <div  class="box col-xs-3">
+                  <h5 id="daystxt">Days</h2>
+                  <h3 id="days" class="text-center">000</h3>
+              </div>
+              <div class="box col-xs-3">
+                  <h5 id="hourstxt">Hours</h2>
+                  <h3 id="hours" class="text-center">00</h3>
+              </div>
+              <div class="box col-xs-3">
+                  <h5 id="minutestxt">Minutes</h2>
+                  <h3 id="minutes" class="text-center">00</h3>
+              </div>
+              <div class="box col-xs-3">
+                  <h5 id="secondstxt">Seconds</h2>
+                  <h3 id="seconds" class="text-center">00</h3>
+              </div>
+          </div>
+          <div style="background: #eb4d4b;" class="alert">
+            <h1 style="padding: 20px 20px;color: white;">We are sorry, Event ended ! </h1>
+        </div>
           </div>
           <div
             class="col-md-6 mt-5"
@@ -129,10 +150,10 @@
             <img src="assets/nfts/nft1.png" width="100%" class="nft-image" />
           </div>
           <div class="col-md-6" id="mint-text-section">
-            <h2>5,000 unique Solafemmes's</h2>
+            <h2>5,200 unique Solafemmes's</h2>
             <p class="mt-5 mb-5 mint-text">
-              Solfemmes is a community-driven collectibles NFT project with a
-              total of 5000 hand-drawn, algorithmically generated NFTs on the
+              Solafemmes is a community-driven collectibles NFT project with a
+              total of 5200 hand-drawn, algorithmically generated NFTs on the
               Solana Blockchain. Each femme has unique random traits generated
               from well over a million possible combinations.
             </p>
@@ -157,23 +178,25 @@
         <div class="roadmap row d-flex justify-content-center">
           <div class="stages col-md-5" data-aos="fade-up">
             <h3>Q4 2021 - DECEMBER 2021</h3>
+
             <ul>
               <li>Handcrafting first Femme.</li>
-              <li>Generate unique 5,000 Femmes.</li>
+              <li>Generate unique 5,200 Femmes.</li>
               <li>Launch the community group and social platforms.</li>
             </ul>
           </div>
           <div class="stages col-md-5" data-aos="fade-up">
-            <h3>Q1 2022 - JANUARY 2022</h3>
+            <h3>Q1 2022 - FEBRUARY 2022</h3>
+
             <ul>
               <li>Public mint.</li>
               <li>Marketplaces Listing.</li>
               <li>Publishing the rarity tool.</li>
-              <li>Get listed on CMC and coingecko.</li>
             </ul>
           </div>
           <div class="stages col-md-5" data-aos="fade-up">
-            <h3>Q1 2022 - FEBRUARY 2022</h3>
+            <h3>Q1 2022 - MARCH 2022</h3>
+
             <ul>
               <li>Create a whitelist.</li>
               <li>Airdrop NFT to active community member.</li>
@@ -182,12 +205,21 @@
             </ul>
           </div>
           <div class="stages col-md-5" data-aos="fade-up">
-            <h3>Q2 2022 & BEYOND</h3>
+            <h3>Q2 2022 - MAY</h3>
+
             <ul>
-              <li>Create GEN2 NFT</li>
-              <li>Airdrop GEN2 NFT to solfemmes holders</li>
+              <li>Create a community token</li>
+              <li>Airdrop token to solfemmes holders.</li>
               <li>Sponsor physical events for NFT holders.</li>
-              <li>Continue to groom and nurture the Solfemmes universe.</li>
+            </ul>
+          </div>
+          <div class="stages col-md-5" data-aos="fade-up">
+            <h3>Q3 2022 & BEYOND</h3>
+            <ul>
+              <li>Create a community DAO.</li>
+              <li>Launch the first community project</li>
+              <li>Community Studio upgrade</li>
+              <li>Continue to generate value for the community.</li>
             </ul>
           </div>
         </div>
@@ -353,7 +385,7 @@
         <!--white paper-->
         <div id="whitepaper" class="text-center row heading p-5">
           <div class="col-md-12">
-            <h4>SOLAFEMMES WHITEPAPER</h4>
+            <h3>SOLAFEMMES WHITEPAPER</h3>
             <button class="btn whitepaper">WHITEPAPER</button>
           </div>
         </div>
@@ -383,9 +415,9 @@
               data-parent="#accordion"
             >
               <div class="card-body">
-                Solfemmes is a community-driven collectibles NFT project. The
+                Solafemmes is a community-driven collectibles NFT project. The
                 NFTs are made up with over a hundred exciting traits of faces,
-                hair, body and backgrounds. Each Solfemme is a unique,
+                hair, body and backgrounds. Each Solafemme is a unique,
                 nonfungible token (NFT) on the Solana blockchain.
               </div>
             </div>
@@ -438,7 +470,7 @@
             >
               <div class="card-body">
                 There will be a 5% royalty on all secondary sale of the
-                solfemmes NFT.
+                solafemmes NFT.
               </div>
             </div>
           </div>
@@ -524,8 +556,28 @@
     </main>
 
     <footer id="footer">
-      <div>
-        <img id="pattern-image" src="assets/patternpad.svg" width="100%" />
+      <div id="main_footer" class="d-flex flex-row row p-5">
+        <div class="col-md-2">
+          <h4 style="color: white">SOLAFEMMES</h4>
+        </div>
+        <div class="col-md-6">
+          <p>
+            SOLAFEMMES is a collectible NFT project by
+            <a
+              href="https://linktr.ee/Piforte"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Piforte Studio</a
+            >
+            centered around community building, adventure, and collaboration.
+          </p>
+        </div>
+        <div class="d-flex flex-column justify-content-sm-start col-md-4">
+          <h4>Legal</h4>
+          <a href="./terms-and-condition.html">Terms and Conditions</a>
+          <a href="./privacy.html">Privacy Policy</a>
+          <a href="./cookie-policy.html">Cookie Policy</a>
+        </div>
       </div>
     </footer>
 
