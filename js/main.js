@@ -52,7 +52,8 @@ function elementInViewport(el) {
   );
 }
 
-const finaleDate = new Date("March 19, 2022 00:00:00").getTime();
+const utcDate = Date.UTC(2022, 2, 28, 12, 0, 0);
+const finaleDate = new Date(utcDate).getTime();
 
 const timer = () => {
   const now = new Date().getTime();
