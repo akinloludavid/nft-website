@@ -51,8 +51,7 @@ function elementInViewport(el) {
     left + width <= window.pageXOffset + window.innerWidth
   );
 }
-
-const utcDate = Date.UTC(2022, 2, 28, 12, 0, 0);
+const utcDate = Date.UTC(2022, 3, 14, 12, 0, 0);
 const finaleDate = new Date(utcDate).getTime();
 
 const timer = () => {
