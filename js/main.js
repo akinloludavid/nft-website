@@ -1,17 +1,12 @@
-const patternArray = [
-  "../assets/patternpad5.svg",
-  "../assets/patternpad1.svg",
-  "../assets/patternpad2.svg",
-  "../assets/patternpad3.svg",
-];
+const imgBaseUrl = 'https://res.cloudinary.com/akinloludavid/image/upload/v1651612563/solafemmes-media/'
 
 const heroImages = [
-  "../assets/nfts/nft1.png",
-  "../assets/nfts/nft2.png",
-  "../assets/nfts/nft3.png",
-  "../assets/nfts/nft4.png",
-  "../assets/nfts/nft5.png",
-  "../assets/nfts/nft6.png",
+  "nft1_lzeuog.png",
+  "nft2_s8vals.png",
+  "nft3_jr2iag.png",
+  "nft4_yqyjlx.png",
+  "nft5_p56zwx.png",
+  "nft6_uptnab.png",
 ];
 
 const nftImage = document.querySelector(".nft-image");
@@ -28,7 +23,7 @@ const footer = document.getElementById("footer");
 let j = 0;
 
 setInterval(() => {
-  nftImage.src = heroImages[j % 6];
+  nftImage.src = imgBaseUrl + heroImages[j % 6];
   j++;
 }, 200);
 
@@ -60,8 +55,10 @@ const timer = () => {
   let diff = finaleDate - now;
   // Showing the alert when the counter time finishes.
   if (diff < 0) {
-    document.querySelector(".alert").style.display = "block";
+    document.querySelector(".alert").style.display = "none";
     timer.classList.remove("d-flex");
+    timer.classList.remove("d-none");
+
     timer.style.display = "none";
   }
 

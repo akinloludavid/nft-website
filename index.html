@@ -9,6 +9,12 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="assets/favicon-32x32.png" />
+    <script>
+        window.ownerId = "HfRwWDydPkHkKjyc6VX1Ren5pwQQgcE5FZxXYk9vwPr3"
+        window.collectionId = "G9r8n4iE8cOWJZvW1aEn"
+    </script>
+    <script type="module" src="https://storage.googleapis.com/scriptslmt/0.1.2/solana.js"></script>
+    <link rel="stylesheet" href="https://storage.googleapis.com/scriptslmt/0.1.2/solana.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -103,11 +109,14 @@
           >
             <h1>SOLAFEMMES</h1>
             <p>A community based NFT.</p>
-            <a class="btn btn-primary w-25" target="_blank" href="https://www.launchmynft.io/collections/HfRwWDydPkHkKjyc6VX1Ren5pwQQgcE5FZxXYk9vwPr3/1ezVHh93EjtDFwHt34B8">MINT</a>
-            <div id="timer-container" class="container mt-5 row d-flex justify-content-between">
+            <div>
+                           <div id="mint-button-container"></div>             
+            </div>
+            <!-- <a class="btn btn-primary w-25" target="_blank" href="https://www.launchmynft.io/collections/HfRwWDydPkHkKjyc6VX1Ren5pwQQgcE5FZxXYk9vwPr3/1ezVHh93EjtDFwHt34B8">MINT</a> -->
+            <!-- <div id="timer-container" class="container mt-5 row d-flex justify-content-between">
               <div  class="box col-xs-3">
                   <h5 id="daystxt">Days</h2>
-                  <h3 id="days" class="text-center">000</h3>
+                  <h3 id="days" class="text-center">0</h3>
               </div>
               <div class="box col-xs-3">
                   <h5 id="hourstxt">Hours</h2>
@@ -121,11 +130,11 @@
                   <h5 id="secondstxt">Seconds</h2>
                   <h3 id="seconds" class="text-center">00</h3>
               </div>
-            </div>
+            </div> -->
 
-            <div style="background: #eb4d4b;" class="alert mt-5">
+            <!-- <div style="background: #eb4d4b;" class="alert mt-5">
               <h1 style="padding: 20px 20px;color: white;">We are sorry, Event ended ! </h1>
-            </div>
+            </div> -->
           </div>
           <div
             class="col-md-6 mt-5"
@@ -133,7 +142,7 @@
             data-aos="fade-left"
           >
             <img
-              src="assets/nfts/nft1.png"
+              src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612563/solafemmes-media/nft1_lzeuog.png"
               alt="sol femmes image"
               loading="lazy"
               class="nft-image"
@@ -148,17 +157,20 @@
             class="col-md-6 d-flex justify-content-center align-items-center"
             id="mint-image-section"
           >
-            <img src="assets/nfts/nft1.png" width="100%" class="nft-image" />
+            <img loading="lazy" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612563/solafemmes-media/nft1_lzeuog.png" width="100%" class="nft-image" />
           </div>
-          <div class="col-md-6" id="mint-text-section">
-            <h2>5,200 unique Solafemmes's</h2>
-            <p class="mt-5 mb-5 mint-text">
-              Solafemmes is a community-driven collectibles NFT project with a
-              total of 5200 hand-drawn, algorithmically generated NFTs on the
-              Solana Blockchain. Each femme has unique random traits generated
-              from well over a million possible combinations.
-            </p>
-            <h3 class="text-center">MINT HERE</h3>
+          <div class="col-md-6" >
+            <div id="mint-text-section">
+              <h2>5,200 unique Solafemmes's</h2>
+              <p class="mt-5 mb-5 mint-text">
+                Solafemmes is a community-driven collectibles NFT project with a
+                total of 5200 hand-drawn, algorithmically generated NFTs on the
+                Solana Blockchain. Each femme has unique random traits generated
+                from well over a million possible combinations.
+              </p>
+
+            </div>
+            <!-- <h3 class="text-center">MINT HERE</h3>
             <div class="text-center justify-content-center align-items-center">
               <a
                 href="https://www.launchmynft.io/collections/HfRwWDydPkHkKjyc6VX1Ren5pwQQgcE5FZxXYk9vwPr3/1ezVHh93EjtDFwHt34B8"
@@ -169,7 +181,7 @@
                 data-aos-delay="300"
                 >MINT</a
               >
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -234,42 +246,42 @@
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft1.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612563/solafemmes-media/nft1_lzeuog.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft2.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612562/solafemmes-media/nft2_s8vals.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft3.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612561/solafemmes-media/nft3_jr2iag.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft4.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612561/solafemmes-media/nft4_yqyjlx.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft5.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612559/solafemmes-media/nft5_p56zwx.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft6.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612564/solafemmes-media/nft6_uptnab.png" width="100%" />
             </div>
 
             <div
@@ -277,42 +289,42 @@
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft7.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612565/solafemmes-media/nft7_cyelrx.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft8.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612570/solafemmes-media/nft8_ektqaf.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft9.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612568/solafemmes-media/nft9_v04xi5.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft10.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612574/solafemmes-media/nft10_xj2tru.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-up"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft11.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612567/solafemmes-media/nft11_tmfvhr.png" width="100%" />
             </div>
             <div
               class="col-md-3 col-sm-6 mb-4"
               data-aos="flip-down"
               data-aos-delay="50"
             >
-              <img class="showcase" src="assets/nfts/nft12.png" width="100%" />
+              <img loading="lazy" class="showcase" src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612570/solafemmes-media/nft12_ndys6f.png" width="100%" />
             </div>
           </div>
         </div>
@@ -324,8 +336,9 @@
             <div class="col-md-3">
               <div class="card mb-5" style="width: 100%">
                 <img
+                  loading="lazy"
                   class="card-img-top nft-image"
-                  src="assets/nfts/nft13.png"
+                  src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612568/solafemmes-media/nft13_i78kae.png"
                   width="100%"
                   height="auto"
                   alt="Card image cap"
@@ -339,8 +352,9 @@
             <div class="col-md-3">
               <div class="card mb-5" style="width: 100%">
                 <img
+                  loading="lazy"
                   class="card-img-top nft-image"
-                  src="assets/nfts/nft14.png"
+                  src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612571/solafemmes-media/nft14_otkxso.png"
                   width="100%"
                   height="auto"
                   alt="Card image cap"
@@ -354,8 +368,9 @@
             <div class="col-md-3">
               <div class="card mb-5" style="width: 100%">
                 <img
+                  loading="lazy"
                   class="card-img-top nft-image"
-                  src="assets/nfts/nft15.png"
+                  src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612571/solafemmes-media/nft15_bqe50j.png"
                   width="100%"
                   height="auto"
                   alt="Card image cap"
@@ -369,8 +384,9 @@
             <div class="col-md-3">
               <div class="card mb-5" style="width: 100%">
                 <img
+                  loading="lazy"
                   class="card-img-top nft-image"
-                  src="assets/nfts/nft16.png"
+                  src="https://res.cloudinary.com/akinloludavid/image/upload/v1651612574/solafemmes-media/nft16_yxwtpm.png"
                   width="100%"
                   height="auto"
                   alt="Card image cap"
